@@ -14,7 +14,12 @@
 		070A9FA1283B80CE00150CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A9FA0283B80CE00150CF6 /* Assets.xcassets */; };
 		070A9FA4283B80CE00150CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A9FA2283B80CE00150CF6 /* LaunchScreen.storyboard */; };
 		070A9FAE283BA4FB00150CF6 /* CollapsibleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FAD283BA4FB00150CF6 /* CollapsibleController.swift */; };
-		070A9FB1283BA59200150CF6 /* Collapsible.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A9FB0283BA59200150CF6 /* Collapsible.storyboard */; };
+		070A9FB1283BA59200150CF6 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A9FB0283BA59200150CF6 /* Questions.storyboard */; };
+		07AB3EF2283CE5D2003E31FA /* Experiments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AB3EF1283CE5D2003E31FA /* Experiments.storyboard */; };
+		07AB3EF4283CE5FF003E31FA /* DividedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB3EF3283CE5FF003E31FA /* DividedCollectionView.swift */; };
+		07AB3EF7283CFB2A003E31FA /* ColllapseTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB3EF6283CFB2A003E31FA /* ColllapseTableViewSection.swift */; };
+		07AB3EFA283D064A003E31FA /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB3EF9283D064A003E31FA /* SliderViewController.swift */; };
+		07AB3EFC283D256A003E31FA /* FullScreenImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB3EFB283D256A003E31FA /* FullScreenImagesController.swift */; };
 		07BA5BC9283BB05E00F10827 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FB3283BA84500150CF6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +33,13 @@
 		070A9FA3283B80CE00150CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		070A9FA5283B80CE00150CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070A9FAD283BA4FB00150CF6 /* CollapsibleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleController.swift; sourceTree = "<group>"; };
-		070A9FB0283BA59200150CF6 /* Collapsible.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collapsible.storyboard; sourceTree = "<group>"; };
+		070A9FB0283BA59200150CF6 /* Questions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
 		070A9FB3283BA84500150CF6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		07AB3EF1283CE5D2003E31FA /* Experiments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experiments.storyboard; sourceTree = "<group>"; };
+		07AB3EF3283CE5FF003E31FA /* DividedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividedCollectionView.swift; sourceTree = "<group>"; };
+		07AB3EF6283CFB2A003E31FA /* ColllapseTableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColllapseTableViewSection.swift; sourceTree = "<group>"; };
+		07AB3EF9283D064A003E31FA /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		07AB3EFB283D256A003E31FA /* FullScreenImagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImagesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				070A9FB2283BA83500150CF6 /* Extensions */,
-				070A9FAF283BA50200150CF6 /* Collapsible Table row */,
+				07AB3EED283CE58E003E31FA /* Questions */,
+				07AB3EEC283CE581003E31FA /* Experiments */,
 				070A9F97283B80CC00150CF6 /* AppDelegate.swift */,
 				070A9F99283B80CC00150CF6 /* SceneDelegate.swift */,
 				070A9F9B283B80CC00150CF6 /* ViewController.swift */,
@@ -79,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				070A9FAD283BA4FB00150CF6 /* CollapsibleController.swift */,
-				070A9FB0283BA59200150CF6 /* Collapsible.storyboard */,
 			);
 			path = "Collapsible Table row";
 			sourceTree = "<group>";
@@ -91,6 +101,51 @@
 			);
 			name = Extensions;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		07AB3EEB283CE573003E31FA /* DividedCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				07AB3EF3283CE5FF003E31FA /* DividedCollectionView.swift */,
+				07AB3EFB283D256A003E31FA /* FullScreenImagesController.swift */,
+			);
+			path = DividedCollectionView;
+			sourceTree = "<group>";
+		};
+		07AB3EEC283CE581003E31FA /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				07AB3EF8283D0635003E31FA /* Slider View */,
+				07AB3EF5283CFAF4003E31FA /* Colllapse Table Section */,
+				07AB3EEB283CE573003E31FA /* DividedCollectionView */,
+				07AB3EF1283CE5D2003E31FA /* Experiments.storyboard */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
+		07AB3EED283CE58E003E31FA /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				070A9FB0283BA59200150CF6 /* Questions.storyboard */,
+				070A9FAF283BA50200150CF6 /* Collapsible Table row */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		07AB3EF5283CFAF4003E31FA /* Colllapse Table Section */ = {
+			isa = PBXGroup;
+			children = (
+				07AB3EF6283CFB2A003E31FA /* ColllapseTableViewSection.swift */,
+			);
+			path = "Colllapse Table Section";
+			sourceTree = "<group>";
+		};
+		07AB3EF8283D0635003E31FA /* Slider View */ = {
+			isa = PBXGroup;
+			children = (
+				07AB3EF9283D064A003E31FA /* SliderViewController.swift */,
+			);
+			path = "Slider View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				070A9FA4283B80CE00150CF6 /* LaunchScreen.storyboard in Resources */,
+				07AB3EF2283CE5D2003E31FA /* Experiments.storyboard in Resources */,
 				070A9FA1283B80CE00150CF6 /* Assets.xcassets in Resources */,
 				070A9F9F283B80CC00150CF6 /* Main.storyboard in Resources */,
-				070A9FB1283BA59200150CF6 /* Collapsible.storyboard in Resources */,
+				070A9FB1283BA59200150CF6 /* Questions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +222,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BA5BC9283BB05E00F10827 /* Extensions.swift in Sources */,
+				07AB3EFC283D256A003E31FA /* FullScreenImagesController.swift in Sources */,
 				070A9F9C283B80CC00150CF6 /* ViewController.swift in Sources */,
+				07AB3EF7283CFB2A003E31FA /* ColllapseTableViewSection.swift in Sources */,
+				07AB3EF4283CE5FF003E31FA /* DividedCollectionView.swift in Sources */,
 				070A9F98283B80CC00150CF6 /* AppDelegate.swift in Sources */,
 				070A9FAE283BA4FB00150CF6 /* CollapsibleController.swift in Sources */,
 				070A9F9A283B80CC00150CF6 /* SceneDelegate.swift in Sources */,
+				07AB3EFA283D064A003E31FA /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

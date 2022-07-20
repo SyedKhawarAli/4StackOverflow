@@ -10,7 +10,8 @@ import UIKit
 extension UIStoryboard {
     enum Name: String {
         case Main
-        case Collapsible
+        case Questions
+        case Experiments
     }
 }
 

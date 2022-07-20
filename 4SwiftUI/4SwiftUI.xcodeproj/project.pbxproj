@@ -59,9 +59,9 @@
 			children = (
 				070A9F7D283B809200150CF6 /* _SwiftUIApp.swift */,
 				070A9F7F283B809200150CF6 /* ContentView.swift */,
-				070A9FAB283B854900150CF6 /* TestDropdownView.swift */,
 				070A9FB6283BAB0800150CF6 /* IncreaseImageSizeOnClick.swift */,
 				070A9FB8283BAB4500150CF6 /* LazyVGridTest.swift */,
+				070A9FAB283B854900150CF6 /* TestDropdownView.swift */,
 				070A9F81283B809300150CF6 /* Assets.xcassets */,
 				070A9F83283B809300150CF6 /* Preview Content */,
 			);
