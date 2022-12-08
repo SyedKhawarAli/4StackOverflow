@@ -7,13 +7,16 @@
       <FileRef
          location = "group:Dropdown_on_LazyVGrid_with_Zindex.md">
       </FileRef>
+      <FileRef
+         location = "group:NavigationSplitView_keep_selected_item.md">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "Common">
    </Group>
    <FileRef
-      location = "group:/Users/eapple/Desktop/BrainX/Random /4StackOverflow/4SwiftUI/4SwiftUI.xcodeproj">
+      location = "group:4SwiftUI/4SwiftUI.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:4Swift/Swift_UIKIt.xcodeproj">
