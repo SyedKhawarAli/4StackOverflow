@@ -11,7 +11,7 @@ import SwiftUI
 struct _SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            TestDropdownView()
+            GridDragged()
         }
     }
 }

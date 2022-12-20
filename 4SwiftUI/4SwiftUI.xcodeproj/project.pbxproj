@@ -14,6 +14,7 @@
 		070A9FAC283B854900150CF6 /* TestDropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FAB283B854900150CF6 /* TestDropdownView.swift */; };
 		070A9FB7283BAB0800150CF6 /* IncreaseImageSizeOnClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FB6283BAB0800150CF6 /* IncreaseImageSizeOnClick.swift */; };
 		070A9FB9283BAB4500150CF6 /* LazyVGridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FB8283BAB4500150CF6 /* LazyVGridTest.swift */; };
+		8FBCA6A72952009600A1C7AA /* GridDragged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBCA6A62952009600A1C7AA /* GridDragged.swift */; };
 		8FCC01C429420631001E3DA0 /* NavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		070A9FAB283B854900150CF6 /* TestDropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDropdownView.swift; sourceTree = "<group>"; };
 		070A9FB6283BAB0800150CF6 /* IncreaseImageSizeOnClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseImageSizeOnClick.swift; sourceTree = "<group>"; };
 		070A9FB8283BAB4500150CF6 /* LazyVGridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridTest.swift; sourceTree = "<group>"; };
+		8FBCA6A62952009600A1C7AA /* GridDragged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDragged.swift; sourceTree = "<group>"; };
 		8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				070A9F81283B809300150CF6 /* Assets.xcassets */,
 				070A9F83283B809300150CF6 /* Preview Content */,
 				8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */,
+				8FBCA6A62952009600A1C7AA /* GridDragged.swift */,
 			);
 			path = 4SwiftUI;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				070A9F80283B809200150CF6 /* ContentView.swift in Sources */,
 				8FCC01C429420631001E3DA0 /* NavigationSplitView.swift in Sources */,
 				070A9F7E283B809200150CF6 /* _SwiftUIApp.swift in Sources */,
+				8FBCA6A72952009600A1C7AA /* GridDragged.swift in Sources */,
 				070A9FB9283BAB4500150CF6 /* LazyVGridTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
