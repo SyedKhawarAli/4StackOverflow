@@ -16,6 +16,7 @@
 		070A9FB9283BAB4500150CF6 /* LazyVGridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A9FB8283BAB4500150CF6 /* LazyVGridTest.swift */; };
 		8FBCA6A72952009600A1C7AA /* GridDragged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBCA6A62952009600A1C7AA /* GridDragged.swift */; };
 		8FCC01C429420631001E3DA0 /* NavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */; };
+		8FCF7F742954919500E52994 /* CarouselViewSnapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF7F732954919500E52994 /* CarouselViewSnapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		070A9FB8283BAB4500150CF6 /* LazyVGridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridTest.swift; sourceTree = "<group>"; };
 		8FBCA6A62952009600A1C7AA /* GridDragged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDragged.swift; sourceTree = "<group>"; };
 		8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitView.swift; sourceTree = "<group>"; };
+		8FCF7F732954919500E52994 /* CarouselViewSnapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewSnapping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				070A9F83283B809300150CF6 /* Preview Content */,
 				8FCC01C329420631001E3DA0 /* NavigationSplitView.swift */,
 				8FBCA6A62952009600A1C7AA /* GridDragged.swift */,
+				8FCF7F732954919500E52994 /* CarouselViewSnapping.swift */,
 			);
 			path = 4SwiftUI;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				8FCC01C429420631001E3DA0 /* NavigationSplitView.swift in Sources */,
 				070A9F7E283B809200150CF6 /* _SwiftUIApp.swift in Sources */,
 				8FBCA6A72952009600A1C7AA /* GridDragged.swift in Sources */,
+				8FCF7F742954919500E52994 /* CarouselViewSnapping.swift in Sources */,
 				070A9FB9283BAB4500150CF6 /* LazyVGridTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
